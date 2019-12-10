@@ -10,3 +10,4 @@ jobs:
     - uses: chanwit/action-eksctl-kale@master
       with:
         region: ap-southeast-1
+        cluster: eks-kubeflow
