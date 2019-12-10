@@ -11,3 +11,5 @@ jobs:
       with:
         region: ap-southeast-1
         cluster: eks-kubeflow
+        awsAccessKeyId: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        awsSecretAccessKey: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
