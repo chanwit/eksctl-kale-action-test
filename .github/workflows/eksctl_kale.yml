@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: chanwit/action-eksctl-kale@master
+    - uses: chanwit/action-eksctl-kale@v1
       with:
         region: ap-southeast-1
         cluster: eks-kubeflow
